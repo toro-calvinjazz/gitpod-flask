@@ -4,7 +4,7 @@ image:
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: pip3 install -r requirements.txt # runs during prebuild
-    command: python3 src/main.py
+    command: python3 src/app.py
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
